@@ -1,7 +1,8 @@
 const input = require("./input.json");
+const { countNumberofIncreases } = require("./part1");
 
-const slidingWindowSums = input.reduce(
-  (previousValue, _, currentIndex, numbers) => {
+function calculateSlidingWindowSums(numbers) {
+  return numbers.reduce((previousValue, _, currentIndex) => {
     if (currentIndex > 1) {
       return previousValue.concat(
         numbers[currentIndex - 2] +
@@ -10,16 +11,11 @@ const slidingWindowSums = input.reduce(
       );
     }
     return previousValue;
-  },
-  []
-);
+  }, []);
+}
 
-const numberOfIncreases = slidingWindowSums.reduce(
-  (previousValue, _, currentIndex, numbers) =>
-    numbers[currentIndex - 1] < numbers[currentIndex]
-      ? previousValue + 1
-      : previousValue,
-  0
-);
+// console.log(countNumberofIncreases(calculateSlidingWindowSums(input)));
 
-console.log(numberOfIncreases);
+module.exports = {
+  calculateSlidingWindowSums,
+};

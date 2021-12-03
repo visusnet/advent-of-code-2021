@@ -1,1 +1,1 @@
-The test code has intentionally been omitted.
+Some test code has intentionally been omitted.
