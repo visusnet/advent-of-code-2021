@@ -2,7 +2,6 @@ const currentFishes = require("./input.json");
 
 function calculateFishPopulation(fishes, numberOfDays) {
   let school = toSchool(fishes);
-  console.log(school);
   for (let day = 1; day <= numberOfDays; day++) {
     school = nextDay(school);
   }
