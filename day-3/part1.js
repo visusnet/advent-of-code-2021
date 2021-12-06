@@ -51,6 +51,7 @@ function readDiagnosticReport() {
 //);
 
 module.exports = {
+  readDiagnosticReport,
   calculateRatesInBinary,
   calculatePowerConsumption,
 };
