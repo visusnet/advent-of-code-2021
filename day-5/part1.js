@@ -2,36 +2,29 @@ const allLineSegments = require("./input.json");
 
 function calculateMap(lineSegments) {
   return lineSegments
-    .map(normalize)
     .filter(onlyHorizontalOrVerticalLines)
     .flatMap(toLineSegmentRange)
     .reduce(toMap, []);
 }
 
-function normalize(lineSegment) {
-  return {
-    x1: Math.min(lineSegment.x1, lineSegment.x2),
-    x2: Math.max(lineSegment.x1, lineSegment.x2),
-    y1: Math.min(lineSegment.y1, lineSegment.y2),
-    y2: Math.max(lineSegment.y1, lineSegment.y2),
-  };
+function onlyHorizontalOrVerticalLines(lineSegment) {
+  return lineSegment.x1 === lineSegment.x2 || lineSegment.y1 === lineSegment.y2;
 }
 
-function range(start, end) {
-  return Array(end - start + 1)
+function range(a, b) {
+  return Array(Math.max(a, b) - Math.min(a, b) + 1)
     .fill()
-    .map((_, index) => start + index);
+    .map((_, index) => Math.min(a, b) + index);
 }
 
-function toLineSegmentRange(lineSegment) {
-  return range(lineSegment.x1, lineSegment.x2).reduce(
-    (ranges, x) =>
-      range(lineSegment.y1, lineSegment.y2).reduce(
-        (r, y) => [...r, [x, y]],
-        ranges
-      ),
-    []
-  );
+function toLineSegmentRange({ x1, y1, x2, y2 }) {
+  if (x1 === x2) {
+    return range(y1, y2).map((y0) => [x1, y0]);
+  }
+  const m = (y2 - y1) / (x2 - x1);
+  const b = y2 - m * x2;
+  const f = (x) => m * x + b;
+  return range(x1, x2).map((x0) => [x0, f(x0)]);
 }
 
 function toMap(map, [x, y]) {
@@ -40,10 +33,6 @@ function toMap(map, [x, y]) {
   }
   map[x][y] = map[x][y] ? map[x][y] + 1 : 1;
   return map;
-}
-
-function onlyHorizontalOrVerticalLines(lineSegment) {
-  return lineSegment.x1 === lineSegment.x2 || lineSegment.y1 === lineSegment.y2;
 }
 
 function numberOfOverlapsIn(map) {
