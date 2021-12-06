@@ -37,7 +37,25 @@ function add(accumulator, a) {
   return accumulator + a;
 }
 
-const startTime = new Date().getMilliseconds();
+const startTime = startTimer();
 const population = calculateFishPopulation(currentFishes, 256);
-const endTime = new Date().getMilliseconds();
-console.log(`${population} in ${endTime - startTime}ms`);
+const endTime = endTimer(startTime);
+console.log(`${population} in ${endTime}ms`);
+
+function startTimer() {
+  const time = process.hrtime();
+  return time;
+}
+
+function endTimer(time) {
+  function roundTo(decimalPlaces, numberToRound) {
+    return +(
+      Math.round(numberToRound + `e+${decimalPlaces}`) + `e-${decimalPlaces}`
+    );
+  }
+  const diff = process.hrtime(time);
+  const NS_PER_SEC = 1e9;
+  const result = diff[0] * NS_PER_SEC + diff[1]; // Result in Nanoseconds
+  const elapsed = result * 0.000001;
+  return roundTo(6, elapsed); // Result in milliseconds
+}
