@@ -1,24 +1,45 @@
 const allBoards = require("./boards.json");
 const allDrawnNumbers = require("./numbers.json");
 
-function findFirstWinner(boards, numbers, currentDrawnNumberIndex = 0) {
-  const winningBoard = boards.find(
+function findWinners(
+  boards,
+  numbers,
+  currentDrawnNumberIndex = 0,
+  winners = []
+) {
+  const winningBoards = boards.filter(
     isWinner(numbers.slice(0, currentDrawnNumberIndex + 1))
   );
-  if (winningBoard) {
-    return {
+  const notWinningBoards = boards.filter(
+    isNotWinner(numbers.slice(0, currentDrawnNumberIndex + 1))
+  );
+  winners.push(
+    ...winningBoards.map((winningBoard) => ({
       winningBoard,
       winningNumber: numbers[currentDrawnNumberIndex],
       markedNumbers: numbers.slice(0, currentDrawnNumberIndex + 1),
-    };
-  }
-  return findFirstWinner(boards, numbers, currentDrawnNumberIndex + 1);
+    }))
+  );
+  return currentDrawnNumberIndex !== numbers.length - 1
+    ? findWinners(
+        notWinningBoards,
+        numbers,
+        currentDrawnNumberIndex + 1,
+        winners
+      )
+    : winners;
 }
 
 function isWinner(drawnNumbers) {
   return (board) =>
     board.some(isWinningRow(drawnNumbers)) ||
     transposeMatrix(board).some(isWinningRow(drawnNumbers));
+}
+
+function isNotWinner(drawnNumbers) {
+  return (board) =>
+    !board.some(isWinningRow(drawnNumbers)) &&
+    !transposeMatrix(board).some(isWinningRow(drawnNumbers));
 }
 
 function isWinningRow(drawnNumbers) {
@@ -44,7 +65,13 @@ function add(accumulator, a) {
   return accumulator + a;
 }
 
-const winner = findFirstWinner(allBoards, allDrawnNumbers);
+function lastWinnerOf(winners) {
+  return winners[winners.length - 1];
+}
+
+const winners = findWinners(allBoards, allDrawnNumbers);
+const winner = lastWinnerOf(winners);
+
 console.log({
   winningBoard: winner.winningBoard,
   markedNumbers: winner.markedNumbers,
@@ -52,5 +79,6 @@ console.log({
 });
 
 module.exports = {
-  findFirstWinner,
+  findWinners,
+  lastWinnerOf,
 };
