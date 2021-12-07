@@ -38,7 +38,10 @@ function add(accumulator, a) {
 }
 
 const startTime = startTimer();
-const population = calculateFishPopulation(currentFishes, 256);
+const population = calculateFishPopulation(
+  currentFishes,
+  Number(process.argv[2]) || 256
+);
 const endTime = endTimer(startTime);
 console.log(`${population} in ${endTime}ms`);
 
