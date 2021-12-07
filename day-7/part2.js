@@ -10,12 +10,12 @@ function calculateOptimalPosition(crabPositions) {
 
 function calculateFuelConsumption(crabPositions, position) {
   return crabPositions
-    .map((crabPosition) => sumOfRange(0, Math.abs(crabPosition - position)))
+    .map((crabPosition) => sumTo(Math.abs(crabPosition - position)))
     .reduce(add, 0);
 }
 
-function sumOfRange(start, end) {
-  return range(start, end).reduce(add, 0);
+function sumTo(n) {
+  return (n * (n + 1)) / 2;
 }
 
 function add(accumulator, a) {
