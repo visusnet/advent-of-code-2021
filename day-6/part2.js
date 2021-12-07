@@ -6,24 +6,9 @@ function calculateFishPopulation(fishes, numberOfDays) {
     .reduce(add, 0);
 }
 
-function range(start, end) {
-  return Array(end - start + 1)
-    .fill()
-    .map((_, index) => start + index);
-}
-
-function nextDay(school) {
-  const nextDaySchool = [];
-  nextDaySchool[0] = school[1] || 0;
-  nextDaySchool[1] = school[2] || 0;
-  nextDaySchool[2] = school[3] || 0;
-  nextDaySchool[3] = school[4] || 0;
-  nextDaySchool[4] = school[5] || 0;
-  nextDaySchool[5] = school[6] || 0;
-  nextDaySchool[6] = (school[0] || 0) + (school[7] || 0);
-  nextDaySchool[7] = school[8] || 0;
-  nextDaySchool[8] = school[0] || 0;
-  return nextDaySchool;
+function nextDay(school, day) {
+  school[(day + 7) % 9] = (school[(day + 7) % 9] || 0) + (school[day % 9] || 0);
+  return school;
 }
 
 function toSchool(fishes) {
@@ -31,6 +16,12 @@ function toSchool(fishes) {
     school[fish] = (school[fish] || 0) + 1;
     return school;
   }, []);
+}
+
+function range(start, end) {
+  return Array(end - start + 1)
+    .fill()
+    .map((_, index) => start + index);
 }
 
 function add(accumulator, a) {
@@ -46,8 +37,7 @@ const endTime = endTimer(startTime);
 console.log(`${population} in ${endTime}ms`);
 
 function startTimer() {
-  const time = process.hrtime();
-  return time;
+  return process.hrtime();
 }
 
 function endTimer(time) {

@@ -34,8 +34,7 @@ const endTime = endTimer(startTime);
 console.log(`${optimalPosition} in ${endTime}ms`);
 
 function startTimer() {
-  const time = process.hrtime();
-  return time;
+  return process.hrtime();
 }
 
 function endTimer(time) {
