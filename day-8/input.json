@@ -1,0 +1,3002 @@
+[
+  {
+    "signalPatterns": [
+      "fcdeba",
+      "edcbag",
+      "decab",
+      "adcefg",
+      "acdfb",
+      "gdcfb",
+      "acf",
+      "fabe",
+      "fa",
+      "eacfgbd"
+    ],
+    "outputValue": ["aefb", "cfa", "acf", "cdabf"]
+  },
+  {
+    "signalPatterns": [
+      "adbec",
+      "fabeg",
+      "fgda",
+      "gafedb",
+      "fadeb",
+      "cdebgf",
+      "cfaebdg",
+      "fd",
+      "bdf",
+      "cgfbae"
+    ],
+    "outputValue": ["ebdfga", "fbd", "bdagcef", "dfb"]
+  },
+  {
+    "signalPatterns": [
+      "cagefd",
+      "fegabc",
+      "gbde",
+      "fcagebd",
+      "bcedf",
+      "gefcd",
+      "bec",
+      "cefbdg",
+      "dfabc",
+      "eb"
+    ],
+    "outputValue": ["gdeb", "dgbe", "defcb", "ebc"]
+  },
+  {
+    "signalPatterns": [
+      "cegbf",
+      "acfeb",
+      "cafde",
+      "ab",
+      "abfecd",
+      "ecagfd",
+      "edbcga",
+      "adbf",
+      "ecfadgb",
+      "abc"
+    ],
+    "outputValue": ["degafc", "gefbc", "ab", "adcef"]
+  },
+  {
+    "signalPatterns": [
+      "bc",
+      "gdeca",
+      "bec",
+      "fcab",
+      "cegfdb",
+      "edbgcfa",
+      "gbefda",
+      "fedba",
+      "dceba",
+      "badecf"
+    ],
+    "outputValue": ["fdbeacg", "dgbaef", "bec", "cbe"]
+  },
+  {
+    "signalPatterns": [
+      "caebdg",
+      "gfc",
+      "gaceb",
+      "adcbf",
+      "bgfac",
+      "gf",
+      "eafg",
+      "dfbegc",
+      "abfcge",
+      "ebdcgaf"
+    ],
+    "outputValue": ["bcfag", "bdgface", "fegcba", "gdbeca"]
+  },
+  {
+    "signalPatterns": [
+      "fedga",
+      "fgebdc",
+      "dfb",
+      "edcagb",
+      "edcab",
+      "afbc",
+      "fdecba",
+      "dbaef",
+      "fb",
+      "aefbgcd"
+    ],
+    "outputValue": ["bf", "bcade", "bf", "cafb"]
+  },
+  {
+    "signalPatterns": [
+      "cb",
+      "cfgea",
+      "badcge",
+      "gdfabce",
+      "bec",
+      "fedbg",
+      "egdafb",
+      "cgdfbe",
+      "cdfb",
+      "cbgef"
+    ],
+    "outputValue": ["dbfc", "gecbfd", "fbdc", "ceb"]
+  },
+  {
+    "signalPatterns": [
+      "cbfdag",
+      "fcbgd",
+      "afbgced",
+      "cgfab",
+      "ebfgad",
+      "agcbef",
+      "dfg",
+      "fecdb",
+      "dcga",
+      "gd"
+    ],
+    "outputValue": ["gacfedb", "cbfgd", "dgf", "gdfbc"]
+  },
+  {
+    "signalPatterns": [
+      "abgfd",
+      "dgcbe",
+      "dfbgce",
+      "acbged",
+      "eab",
+      "ae",
+      "daebg",
+      "edac",
+      "gdbfcae",
+      "cgbeaf"
+    ],
+    "outputValue": ["bcedg", "eba", "eab", "edac"]
+  },
+  {
+    "signalPatterns": [
+      "gea",
+      "ag",
+      "cfaeg",
+      "agcd",
+      "befagd",
+      "fcdae",
+      "adcgfe",
+      "ecbgafd",
+      "cdbfea",
+      "gefbc"
+    ],
+    "outputValue": ["bdeafc", "defacg", "gae", "dgcaef"]
+  },
+  {
+    "signalPatterns": [
+      "bfeca",
+      "adfbce",
+      "febd",
+      "beagc",
+      "cdeafg",
+      "fgacedb",
+      "efc",
+      "dcbagf",
+      "abcdf",
+      "fe"
+    ],
+    "outputValue": ["agedfc", "cefba", "ef", "fgcbeda"]
+  },
+  {
+    "signalPatterns": [
+      "cbeafd",
+      "gfabd",
+      "dabecg",
+      "cfeg",
+      "dfc",
+      "gcadf",
+      "cgaed",
+      "efacgdb",
+      "cf",
+      "gfcdae"
+    ],
+    "outputValue": ["cefg", "fgdca", "decagfb", "ebfadc"]
+  },
+  {
+    "signalPatterns": [
+      "fg",
+      "edabf",
+      "gbedf",
+      "gedbfa",
+      "ebafcg",
+      "egbdacf",
+      "fgad",
+      "cedgb",
+      "cdebfa",
+      "egf"
+    ],
+    "outputValue": ["bgdec", "egdfab", "gf", "acfgbe"]
+  },
+  {
+    "signalPatterns": [
+      "cfe",
+      "bacge",
+      "ecfabd",
+      "dcbfega",
+      "defa",
+      "cdfba",
+      "defbcg",
+      "fe",
+      "feabc",
+      "dbfcag"
+    ],
+    "outputValue": ["cabge", "ef", "fadbc", "eafd"]
+  },
+  {
+    "signalPatterns": [
+      "ag",
+      "gadb",
+      "edacfb",
+      "gcaefd",
+      "eafbd",
+      "dbeafg",
+      "efcgdba",
+      "fag",
+      "egcbf",
+      "gfbea"
+    ],
+    "outputValue": ["agf", "gbfcdea", "cbaefd", "ag"]
+  },
+  {
+    "signalPatterns": [
+      "adegb",
+      "gbdfe",
+      "bcdafge",
+      "gdfbce",
+      "fcgeab",
+      "geafbd",
+      "ga",
+      "dgfa",
+      "age",
+      "ecadb"
+    ],
+    "outputValue": ["ag", "gae", "gfda", "eag"]
+  },
+  {
+    "signalPatterns": [
+      "beagdfc",
+      "faedc",
+      "caegbf",
+      "fgeba",
+      "caefg",
+      "cg",
+      "ceg",
+      "dbgfae",
+      "aebgcd",
+      "cfgb"
+    ],
+    "outputValue": ["ceg", "bgefca", "egc", "gce"]
+  },
+  {
+    "signalPatterns": [
+      "dcaf",
+      "cd",
+      "cdeabf",
+      "cefab",
+      "fgbde",
+      "efbdc",
+      "bcd",
+      "eadcgb",
+      "gebcadf",
+      "caegbf"
+    ],
+    "outputValue": ["eacfgb", "cd", "feacb", "eafdcbg"]
+  },
+  {
+    "signalPatterns": [
+      "begadcf",
+      "dbf",
+      "ecdbg",
+      "aedfc",
+      "fbae",
+      "cdfbga",
+      "dcbaef",
+      "bf",
+      "deacfg",
+      "cfbde"
+    ],
+    "outputValue": ["feba", "eafb", "bf", "cdfbe"]
+  },
+  {
+    "signalPatterns": [
+      "fbgced",
+      "gcedba",
+      "gbc",
+      "fgadc",
+      "gafcdbe",
+      "cebf",
+      "egfbd",
+      "dbafge",
+      "cdfgb",
+      "cb"
+    ],
+    "outputValue": ["gcb", "begfd", "dfbaecg", "dbgfc"]
+  },
+  {
+    "signalPatterns": [
+      "dbcega",
+      "beg",
+      "gb",
+      "cfdeba",
+      "gaceb",
+      "gfeca",
+      "gdab",
+      "fcedbg",
+      "beacd",
+      "cfagedb"
+    ],
+    "outputValue": ["cfbgade", "bg", "bg", "fdgcbe"]
+  },
+  {
+    "signalPatterns": [
+      "abdcgf",
+      "agebc",
+      "dacbg",
+      "fbadce",
+      "fcaged",
+      "gd",
+      "fdcebga",
+      "cfdab",
+      "gbdf",
+      "dag"
+    ],
+    "outputValue": ["gd", "cefgdba", "dgbf", "fbdg"]
+  },
+  {
+    "signalPatterns": [
+      "gb",
+      "ecbadf",
+      "gbad",
+      "edfgcb",
+      "bgf",
+      "dbcaf",
+      "afbcg",
+      "cgfea",
+      "cdfgbae",
+      "dcfbag"
+    ],
+    "outputValue": ["gb", "bg", "bgfceda", "dafcbe"]
+  },
+  {
+    "signalPatterns": [
+      "gaefd",
+      "cg",
+      "adbfce",
+      "bdfecg",
+      "fcbdgea",
+      "cbafe",
+      "agefc",
+      "cgf",
+      "abcegf",
+      "gabc"
+    ],
+    "outputValue": ["gcf", "acedfb", "febgca", "cafbdeg"]
+  },
+  {
+    "signalPatterns": [
+      "deacgfb",
+      "bfeacg",
+      "ebgcdf",
+      "dc",
+      "cfadgb",
+      "abegd",
+      "gbcfe",
+      "bcgde",
+      "gdc",
+      "dfec"
+    ],
+    "outputValue": ["gcd", "begad", "befcg", "dgc"]
+  },
+  {
+    "signalPatterns": [
+      "cdge",
+      "dfebga",
+      "gcbef",
+      "abdcfe",
+      "ec",
+      "gebcdf",
+      "cbe",
+      "cedabfg",
+      "fgdeb",
+      "bfgca"
+    ],
+    "outputValue": ["ebgdfca", "ce", "fedbgca", "fdaecb"]
+  },
+  {
+    "signalPatterns": [
+      "bfde",
+      "aeb",
+      "aebfcgd",
+      "gabdfc",
+      "dgafb",
+      "bfage",
+      "be",
+      "dfgeab",
+      "fcega",
+      "gdaceb"
+    ],
+    "outputValue": ["edbgac", "eab", "eba", "gaefc"]
+  },
+  {
+    "signalPatterns": [
+      "dcgae",
+      "afebcg",
+      "eabcgdf",
+      "bg",
+      "agb",
+      "febda",
+      "dcbg",
+      "eagcdb",
+      "abged",
+      "edfcga"
+    ],
+    "outputValue": ["egcad", "cgdb", "deagb", "gb"]
+  },
+  {
+    "signalPatterns": [
+      "fdceag",
+      "dbgca",
+      "beg",
+      "cegaf",
+      "begcfa",
+      "baef",
+      "eb",
+      "abgce",
+      "adgebfc",
+      "fbgdec"
+    ],
+    "outputValue": ["be", "eb", "afeb", "eb"]
+  },
+  {
+    "signalPatterns": [
+      "beadgc",
+      "gdcf",
+      "ebacf",
+      "acdefg",
+      "bfgdeca",
+      "afcge",
+      "dafgeb",
+      "gf",
+      "fga",
+      "daegc"
+    ],
+    "outputValue": ["cdgf", "fg", "aecfb", "cbfea"]
+  },
+  {
+    "signalPatterns": [
+      "gfca",
+      "gfdcabe",
+      "ecg",
+      "gc",
+      "abecdf",
+      "fbcea",
+      "fagceb",
+      "ebfdg",
+      "efcbg",
+      "dabegc"
+    ],
+    "outputValue": ["dfgbe", "gdebf", "cefbag", "ecafb"]
+  },
+  {
+    "signalPatterns": [
+      "feadg",
+      "gbfdea",
+      "acdefb",
+      "gaebf",
+      "cfged",
+      "ad",
+      "beagfcd",
+      "dae",
+      "ecagbf",
+      "bagd"
+    ],
+    "outputValue": ["ad", "cgabfe", "cfdaeb", "dbga"]
+  },
+  {
+    "signalPatterns": [
+      "bcdge",
+      "adcfeb",
+      "cadbge",
+      "bgdafe",
+      "dbg",
+      "gcedf",
+      "acbg",
+      "ebacd",
+      "gb",
+      "dcgeabf"
+    ],
+    "outputValue": ["abcgdef", "ebgcda", "bdgec", "bdcaeg"]
+  },
+  {
+    "signalPatterns": [
+      "cfga",
+      "gacde",
+      "fdgea",
+      "cgefbd",
+      "fgaedc",
+      "cbadfge",
+      "gc",
+      "edbac",
+      "gebdfa",
+      "dgc"
+    ],
+    "outputValue": ["gcd", "cgaf", "eagfdb", "eagdf"]
+  },
+  {
+    "signalPatterns": [
+      "bg",
+      "fdcega",
+      "bgf",
+      "dbgfcea",
+      "gdcfe",
+      "gbcaef",
+      "bfged",
+      "dbcg",
+      "cdbgfe",
+      "dfbae"
+    ],
+    "outputValue": ["gcbd", "ecfdg", "fbgde", "bfg"]
+  },
+  {
+    "signalPatterns": [
+      "gcdabf",
+      "bgafe",
+      "dbe",
+      "eafbdc",
+      "ecagfdb",
+      "bedaf",
+      "gadebc",
+      "cdfe",
+      "fdcab",
+      "ed"
+    ],
+    "outputValue": ["dbfea", "gabdcef", "de", "gbdeca"]
+  },
+  {
+    "signalPatterns": [
+      "bcdaf",
+      "gacfd",
+      "deacgf",
+      "bd",
+      "gbdc",
+      "adb",
+      "aecfb",
+      "gfcbad",
+      "fdagbe",
+      "edgcfab"
+    ],
+    "outputValue": ["eagbdf", "bgcd", "afbdge", "dab"]
+  },
+  {
+    "signalPatterns": [
+      "gface",
+      "cbea",
+      "cfegad",
+      "bfa",
+      "ab",
+      "fdgbc",
+      "acbgf",
+      "ebdfga",
+      "dbcafge",
+      "cebfga"
+    ],
+    "outputValue": ["eagbdcf", "dacegbf", "ab", "ceab"]
+  },
+  {
+    "signalPatterns": [
+      "eabdf",
+      "bcgafe",
+      "gfedbac",
+      "agcdbe",
+      "gedcb",
+      "abecd",
+      "gcad",
+      "ac",
+      "bac",
+      "cedbfg"
+    ],
+    "outputValue": ["deacb", "cab", "bdcfge", "dcfgaeb"]
+  },
+  {
+    "signalPatterns": [
+      "cedgf",
+      "cbgdef",
+      "gcafde",
+      "fdae",
+      "ebgfac",
+      "edagc",
+      "cae",
+      "ea",
+      "bdefagc",
+      "bcdag"
+    ],
+    "outputValue": ["defcg", "gebdcf", "aec", "bgdac"]
+  },
+  {
+    "signalPatterns": [
+      "cdbae",
+      "edf",
+      "afbegd",
+      "fgdebc",
+      "aegfcb",
+      "aebdgfc",
+      "febcg",
+      "dcfg",
+      "df",
+      "ecdfb"
+    ],
+    "outputValue": ["debagf", "df", "fcgd", "eadfgb"]
+  },
+  {
+    "signalPatterns": [
+      "adc",
+      "fedcbga",
+      "ad",
+      "adgb",
+      "ecagdb",
+      "dcebg",
+      "cgead",
+      "dfgbec",
+      "eafgc",
+      "afcdbe"
+    ],
+    "outputValue": ["cda", "bgda", "ebdafc", "egbcfd"]
+  },
+  {
+    "signalPatterns": [
+      "cdfeb",
+      "eafcdg",
+      "acfde",
+      "bdac",
+      "edb",
+      "gcfeb",
+      "eagdbf",
+      "db",
+      "afdecb",
+      "ebacgfd"
+    ],
+    "outputValue": ["abcd", "abcd", "db", "gbefc"]
+  },
+  {
+    "signalPatterns": [
+      "cdefa",
+      "bf",
+      "dcbag",
+      "cdabf",
+      "bcefgda",
+      "ebcadg",
+      "debfga",
+      "afb",
+      "bfcg",
+      "cgabdf"
+    ],
+    "outputValue": ["bf", "gcabd", "bdagfec", "gfcb"]
+  },
+  {
+    "signalPatterns": [
+      "ecb",
+      "eabgdc",
+      "cgaeb",
+      "bcagfd",
+      "gfedcb",
+      "beacdgf",
+      "aedc",
+      "ec",
+      "beafg",
+      "dgacb"
+    ],
+    "outputValue": ["gcdfba", "fgcbead", "ce", "ce"]
+  },
+  {
+    "signalPatterns": [
+      "fcebg",
+      "gcfdeb",
+      "bdgaec",
+      "bfdg",
+      "facged",
+      "cbg",
+      "egdcf",
+      "facbe",
+      "bg",
+      "badfgce"
+    ],
+    "outputValue": ["fdgb", "bfcge", "fgbd", "egbcfd"]
+  },
+  {
+    "signalPatterns": [
+      "ebfcg",
+      "bd",
+      "adgfce",
+      "acgbdef",
+      "fegdb",
+      "fbd",
+      "gdba",
+      "gbeafd",
+      "fbacde",
+      "agfde"
+    ],
+    "outputValue": ["cfbge", "db", "gdacfbe", "abfgde"]
+  },
+  {
+    "signalPatterns": [
+      "bgefc",
+      "gcde",
+      "afgcbe",
+      "dgcfeb",
+      "eadcgbf",
+      "dg",
+      "fbdeg",
+      "gafcdb",
+      "bdg",
+      "fbade"
+    ],
+    "outputValue": ["dcgabf", "bcfdga", "egcd", "gd"]
+  },
+  {
+    "signalPatterns": [
+      "fbgadc",
+      "gcb",
+      "fcbagde",
+      "bgaef",
+      "bc",
+      "cbdf",
+      "fcgade",
+      "cagbf",
+      "bgaced",
+      "gfacd"
+    ],
+    "outputValue": ["bcg", "dcebga", "cdgfa", "bcdf"]
+  },
+  {
+    "signalPatterns": [
+      "cgebaf",
+      "egdac",
+      "aefbdc",
+      "cbafg",
+      "becag",
+      "bfge",
+      "eb",
+      "adbfegc",
+      "ebc",
+      "bdagcf"
+    ],
+    "outputValue": ["be", "bec", "egdca", "cabdgf"]
+  },
+  {
+    "signalPatterns": [
+      "fgd",
+      "afgdce",
+      "dg",
+      "dage",
+      "decgfb",
+      "fcdag",
+      "bcafgde",
+      "gfcae",
+      "egcafb",
+      "fabcd"
+    ],
+    "outputValue": ["fcbdaeg", "gfcdbe", "agde", "fgd"]
+  },
+  {
+    "signalPatterns": [
+      "cbfga",
+      "abg",
+      "dgbfea",
+      "dbafegc",
+      "fceagb",
+      "ba",
+      "cfgea",
+      "bcea",
+      "gbdfc",
+      "fgdeca"
+    ],
+    "outputValue": ["bcea", "bafdceg", "egafc", "cbdgf"]
+  },
+  {
+    "signalPatterns": [
+      "ebgcda",
+      "acfegb",
+      "gbdc",
+      "befdcag",
+      "fceadg",
+      "afdbe",
+      "cegad",
+      "ebdga",
+      "ebg",
+      "bg"
+    ],
+    "outputValue": ["dfebgac", "dfeab", "gb", "gb"]
+  },
+  {
+    "signalPatterns": [
+      "bacdf",
+      "cgdfae",
+      "abc",
+      "ecdaf",
+      "agefcb",
+      "ebdc",
+      "dfbag",
+      "cb",
+      "cgfbdae",
+      "daefcb"
+    ],
+    "outputValue": ["bc", "gcdafeb", "bca", "gcfeda"]
+  },
+  {
+    "signalPatterns": [
+      "fegabd",
+      "egbfa",
+      "gfa",
+      "debag",
+      "decfagb",
+      "becfa",
+      "cgadbf",
+      "defg",
+      "fg",
+      "bgdeca"
+    ],
+    "outputValue": ["gfde", "agdcfb", "bgdcaf", "bafeg"]
+  },
+  {
+    "signalPatterns": [
+      "gf",
+      "cbeafgd",
+      "gedbaf",
+      "cbfdeg",
+      "egcfb",
+      "cfbae",
+      "gef",
+      "cfgd",
+      "egdcb",
+      "gbdeca"
+    ],
+    "outputValue": ["gf", "fg", "gef", "dagcbe"]
+  },
+  {
+    "signalPatterns": [
+      "bac",
+      "agcbd",
+      "ba",
+      "edcga",
+      "gdfbce",
+      "abfd",
+      "egfbca",
+      "fbgcd",
+      "bacgdf",
+      "becadgf"
+    ],
+    "outputValue": ["cfbeagd", "bdfa", "adbcg", "badf"]
+  },
+  {
+    "signalPatterns": [
+      "gd",
+      "cdgeb",
+      "aecfgb",
+      "egcabd",
+      "dcbagf",
+      "ceagb",
+      "ebcfd",
+      "adge",
+      "dgb",
+      "gfbdcea"
+    ],
+    "outputValue": ["ebfdc", "deag", "ebfcga", "fabcgd"]
+  },
+  {
+    "signalPatterns": [
+      "dcbae",
+      "agec",
+      "dacebfg",
+      "ebdag",
+      "beacgd",
+      "afcbd",
+      "ced",
+      "decfbg",
+      "ec",
+      "dfgeba"
+    ],
+    "outputValue": ["gdebcaf", "dbaegf", "ce", "aceg"]
+  },
+  {
+    "signalPatterns": [
+      "dagefb",
+      "fbecgda",
+      "adgec",
+      "afcgde",
+      "gacf",
+      "bcdef",
+      "fa",
+      "efa",
+      "cfead",
+      "geadbc"
+    ],
+    "outputValue": ["dfebc", "bafcdge", "efa", "aef"]
+  },
+  {
+    "signalPatterns": [
+      "gbdae",
+      "cgad",
+      "bfcde",
+      "ac",
+      "dceabg",
+      "bdgefa",
+      "bfcaedg",
+      "cab",
+      "debca",
+      "acgefb"
+    ],
+    "outputValue": ["ebacdgf", "abcgedf", "cab", "cefdgab"]
+  },
+  {
+    "signalPatterns": [
+      "dbegf",
+      "adegbc",
+      "gefdba",
+      "acbgfd",
+      "ebfcg",
+      "gfbad",
+      "deb",
+      "edfa",
+      "ed",
+      "agedbfc"
+    ],
+    "outputValue": ["bfdgcae", "debgaf", "bdcgeaf", "gebcf"]
+  },
+  {
+    "signalPatterns": [
+      "fcgeb",
+      "dagebc",
+      "acfeg",
+      "aecdfbg",
+      "gedbaf",
+      "bcgefd",
+      "dfbeg",
+      "bc",
+      "bfcd",
+      "cgb"
+    ],
+    "outputValue": ["cb", "efbgd", "cbg", "bc"]
+  },
+  {
+    "signalPatterns": [
+      "dba",
+      "gcdbfe",
+      "egabdc",
+      "aedbfc",
+      "fbced",
+      "bgacf",
+      "cfbdeag",
+      "ad",
+      "faed",
+      "cbafd"
+    ],
+    "outputValue": ["cbfad", "ad", "ad", "cbfga"]
+  },
+  {
+    "signalPatterns": [
+      "edbcag",
+      "ea",
+      "ade",
+      "cfbed",
+      "fcdag",
+      "gdaefc",
+      "eafg",
+      "faecd",
+      "fdceagb",
+      "gfbdca"
+    ],
+    "outputValue": ["bgadcef", "ae", "eafg", "ea"]
+  },
+  {
+    "signalPatterns": [
+      "eafbd",
+      "gfbeda",
+      "bc",
+      "dacb",
+      "fcbega",
+      "bedcf",
+      "debfacg",
+      "edgfc",
+      "cebafd",
+      "ceb"
+    ],
+    "outputValue": ["dgbecaf", "gcedf", "bdca", "cgabfe"]
+  },
+  {
+    "signalPatterns": [
+      "bacegf",
+      "deca",
+      "gefbad",
+      "adebcg",
+      "gbcae",
+      "gbacedf",
+      "dgcbe",
+      "ed",
+      "cgdbf",
+      "edb"
+    ],
+    "outputValue": ["bde", "ebd", "efadbg", "ceda"]
+  },
+  {
+    "signalPatterns": [
+      "dca",
+      "acdfe",
+      "bfegac",
+      "fbeadcg",
+      "deab",
+      "dcgfe",
+      "da",
+      "acdbgf",
+      "fbeca",
+      "edcabf"
+    ],
+    "outputValue": ["deacbf", "dca", "cdbfage", "dac"]
+  },
+  {
+    "signalPatterns": [
+      "febg",
+      "ecfdab",
+      "abe",
+      "deagf",
+      "efgdba",
+      "gcabd",
+      "fdegca",
+      "eb",
+      "egfacbd",
+      "dgaeb"
+    ],
+    "outputValue": ["cfedga", "abcefd", "efagdc", "bea"]
+  },
+  {
+    "signalPatterns": [
+      "fed",
+      "feadc",
+      "ef",
+      "aecbdf",
+      "gadbce",
+      "cgdaf",
+      "gdcaefb",
+      "dbgefa",
+      "bfce",
+      "debca"
+    ],
+    "outputValue": ["dafec", "cdaeb", "fbec", "ef"]
+  },
+  {
+    "signalPatterns": [
+      "fecbdg",
+      "cefdb",
+      "gcbe",
+      "cabdfe",
+      "cdbgf",
+      "gb",
+      "cebafgd",
+      "agfdc",
+      "dbg",
+      "dafgeb"
+    ],
+    "outputValue": ["ecbg", "cgfad", "cgdaf", "agdfc"]
+  },
+  {
+    "signalPatterns": [
+      "feacg",
+      "cgfeda",
+      "fbcagd",
+      "fcbge",
+      "cfa",
+      "baegdc",
+      "acegd",
+      "gfadebc",
+      "eafd",
+      "fa"
+    ],
+    "outputValue": ["begfc", "fa", "afc", "dbagcf"]
+  },
+  {
+    "signalPatterns": [
+      "afgcbe",
+      "cfg",
+      "cf",
+      "cfde",
+      "cgfbd",
+      "gbdfeca",
+      "gbedac",
+      "debgc",
+      "egcfbd",
+      "gfdab"
+    ],
+    "outputValue": ["cf", "cgfebd", "cfg", "fbegcad"]
+  },
+  {
+    "signalPatterns": [
+      "adecfgb",
+      "bgdcea",
+      "cbegaf",
+      "efcbad",
+      "ebg",
+      "ge",
+      "bdeac",
+      "bcdeg",
+      "fbcdg",
+      "dega"
+    ],
+    "outputValue": ["dbcgf", "agde", "bfcega", "bge"]
+  },
+  {
+    "signalPatterns": [
+      "cg",
+      "cbag",
+      "dcg",
+      "gdcfae",
+      "dbfgcea",
+      "dagefb",
+      "cgabfd",
+      "fbgda",
+      "dgbcf",
+      "fecbd"
+    ],
+    "outputValue": ["gdafeb", "dgc", "gc", "dgfabce"]
+  },
+  {
+    "signalPatterns": [
+      "cdfea",
+      "dfbcg",
+      "ga",
+      "gac",
+      "eafg",
+      "adefcg",
+      "acfdbeg",
+      "gadfc",
+      "cfedba",
+      "edgbac"
+    ],
+    "outputValue": ["eafg", "cag", "bfgcd", "cdbgf"]
+  },
+  {
+    "signalPatterns": [
+      "dbaefcg",
+      "cfdea",
+      "eadgf",
+      "dcba",
+      "cfbaed",
+      "befcd",
+      "ace",
+      "ca",
+      "abgecf",
+      "cfdebg"
+    ],
+    "outputValue": ["gbdface", "cegfdb", "edagf", "ecdbf"]
+  },
+  {
+    "signalPatterns": [
+      "dcf",
+      "fcagd",
+      "gcbf",
+      "edbgcfa",
+      "cf",
+      "baegfd",
+      "ecgad",
+      "fedabc",
+      "gfadb",
+      "dcagfb"
+    ],
+    "outputValue": ["bgfc", "acgde", "cf", "fgbacd"]
+  },
+  {
+    "signalPatterns": [
+      "bg",
+      "fedgc",
+      "bfcega",
+      "dbaegc",
+      "gfacebd",
+      "decbg",
+      "gdba",
+      "bcafed",
+      "bedca",
+      "cbg"
+    ],
+    "outputValue": ["dcefg", "bg", "bg", "bg"]
+  },
+  {
+    "signalPatterns": [
+      "geadcf",
+      "ecfbd",
+      "bagedc",
+      "afcdb",
+      "gcfde",
+      "cefgdba",
+      "bce",
+      "begf",
+      "be",
+      "fdcebg"
+    ],
+    "outputValue": ["fgeb", "fegb", "cgedf", "ebc"]
+  },
+  {
+    "signalPatterns": [
+      "gbdcaf",
+      "acgfed",
+      "gc",
+      "dafcb",
+      "cag",
+      "fbgea",
+      "cbfga",
+      "cbfdea",
+      "bgdc",
+      "dcfegab"
+    ],
+    "outputValue": ["bcgd", "aedgfc", "gfeba", "cg"]
+  },
+  {
+    "signalPatterns": [
+      "efdga",
+      "afe",
+      "ea",
+      "gacbdf",
+      "gbafd",
+      "ageb",
+      "dfaceb",
+      "aedbfg",
+      "dgfec",
+      "bagfcde"
+    ],
+    "outputValue": ["fegdc", "dagfe", "ea", "egba"]
+  },
+  {
+    "signalPatterns": [
+      "bfg",
+      "gf",
+      "edabg",
+      "fecbag",
+      "abfgdec",
+      "gacf",
+      "acbfe",
+      "bdecfg",
+      "facbde",
+      "fbega"
+    ],
+    "outputValue": ["fgaebc", "befcda", "fg", "abfge"]
+  },
+  {
+    "signalPatterns": [
+      "fceadg",
+      "beacf",
+      "cgbdae",
+      "bgfd",
+      "cedbf",
+      "ecfdbag",
+      "fgdceb",
+      "edf",
+      "bdecg",
+      "df"
+    ],
+    "outputValue": ["cfabedg", "fed", "dfe", "gdbf"]
+  },
+  {
+    "signalPatterns": [
+      "fdeac",
+      "dgfaeb",
+      "dgfb",
+      "gfadceb",
+      "ceabdg",
+      "gcebaf",
+      "bf",
+      "baf",
+      "daefb",
+      "aegdb"
+    ],
+    "outputValue": ["bdfg", "gdeab", "dbgacfe", "acfed"]
+  },
+  {
+    "signalPatterns": [
+      "ge",
+      "cbfeda",
+      "eag",
+      "fagde",
+      "fedab",
+      "ceagdbf",
+      "fbge",
+      "ebcagd",
+      "dcfga",
+      "dagefb"
+    ],
+    "outputValue": ["cdfga", "ebfcda", "cadgbfe", "dfcag"]
+  },
+  {
+    "signalPatterns": [
+      "egcbadf",
+      "ce",
+      "afdgc",
+      "cdefa",
+      "abedf",
+      "ecfdab",
+      "efc",
+      "bdegfa",
+      "begafc",
+      "ecbd"
+    ],
+    "outputValue": ["bcafde", "ecf", "ce", "ecf"]
+  },
+  {
+    "signalPatterns": [
+      "ebc",
+      "gdacbfe",
+      "gcefdb",
+      "abefd",
+      "dgec",
+      "ec",
+      "fbgdc",
+      "fcadgb",
+      "fdceb",
+      "gfaceb"
+    ],
+    "outputValue": ["cged", "fadbceg", "ce", "bec"]
+  },
+  {
+    "signalPatterns": [
+      "ace",
+      "egbdac",
+      "acdef",
+      "cafbgd",
+      "efgdc",
+      "cfabd",
+      "ea",
+      "feab",
+      "bdaefc",
+      "ebdfgac"
+    ],
+    "outputValue": ["adebcg", "cfbad", "ea", "dcfaebg"]
+  },
+  {
+    "signalPatterns": [
+      "fc",
+      "bagcfed",
+      "fdabg",
+      "acefgb",
+      "bcf",
+      "bcgead",
+      "egbca",
+      "dfgceb",
+      "fabgc",
+      "acef"
+    ],
+    "outputValue": ["cfb", "beadgc", "begca", "fc"]
+  },
+  {
+    "signalPatterns": [
+      "cdefa",
+      "agfecd",
+      "fbcaed",
+      "bgdeac",
+      "gaefc",
+      "ag",
+      "eag",
+      "cgbfe",
+      "gafd",
+      "cgbadef"
+    ],
+    "outputValue": ["gadf", "age", "ag", "gecbf"]
+  },
+  {
+    "signalPatterns": [
+      "dfgcea",
+      "dgac",
+      "egabdfc",
+      "cfdbae",
+      "edcgf",
+      "fegbd",
+      "cge",
+      "cegbaf",
+      "cg",
+      "adfce"
+    ],
+    "outputValue": ["cbdaef", "gec", "cfedg", "cagd"]
+  },
+  {
+    "signalPatterns": [
+      "gcdfb",
+      "dcbfa",
+      "bcfgae",
+      "gdbfe",
+      "gfabed",
+      "bafcdge",
+      "cg",
+      "cbg",
+      "decg",
+      "bfcgde"
+    ],
+    "outputValue": ["cg", "dabegf", "gc", "gecd"]
+  },
+  {
+    "signalPatterns": [
+      "bf",
+      "dcefb",
+      "fbe",
+      "edagfb",
+      "gefcd",
+      "ebcad",
+      "cbaf",
+      "dcfeba",
+      "ecagbd",
+      "edbgcfa"
+    ],
+    "outputValue": ["bfeadc", "baefdg", "efdgc", "cfab"]
+  },
+  {
+    "signalPatterns": [
+      "debga",
+      "ebgafd",
+      "gcdafb",
+      "cd",
+      "cgd",
+      "decabg",
+      "ceagd",
+      "egbfdca",
+      "bcde",
+      "aefgc"
+    ],
+    "outputValue": ["cd", "acbdgf", "ebcd", "cbde"]
+  },
+  {
+    "signalPatterns": [
+      "dfbaegc",
+      "fgcae",
+      "bgcead",
+      "gfaedb",
+      "cdefgb",
+      "adfge",
+      "fd",
+      "degab",
+      "def",
+      "fbda"
+    ],
+    "outputValue": ["fcdgbe", "gbcaed", "dcegab", "febcdg"]
+  },
+  {
+    "signalPatterns": [
+      "gde",
+      "gabcde",
+      "afcbeg",
+      "dg",
+      "ebdaf",
+      "degbfca",
+      "cfgd",
+      "bdegcf",
+      "fgceb",
+      "fdgbe"
+    ],
+    "outputValue": ["fgedbc", "dbagec", "gde", "eadbfgc"]
+  },
+  {
+    "signalPatterns": [
+      "aebdcgf",
+      "bd",
+      "ebdag",
+      "agceb",
+      "fegad",
+      "gdeafb",
+      "gdb",
+      "fbed",
+      "cgbfda",
+      "cgefda"
+    ],
+    "outputValue": ["db", "fbaecdg", "eadbg", "befd"]
+  },
+  {
+    "signalPatterns": [
+      "cebdf",
+      "bgecda",
+      "efbdacg",
+      "af",
+      "aecfgd",
+      "adf",
+      "aegdbf",
+      "abdef",
+      "ebadg",
+      "gfab"
+    ],
+    "outputValue": ["bdegaf", "gafb", "fbegad", "abdecgf"]
+  },
+  {
+    "signalPatterns": [
+      "adcb",
+      "daf",
+      "afdgce",
+      "fgdbca",
+      "gfbdc",
+      "da",
+      "bfadg",
+      "dfebgc",
+      "gbafe",
+      "fdacbge"
+    ],
+    "outputValue": ["febga", "dfa", "dcafeg", "gafcdb"]
+  },
+  {
+    "signalPatterns": [
+      "bgacf",
+      "dabg",
+      "ebadcfg",
+      "bfgdca",
+      "ceadbf",
+      "fecgd",
+      "db",
+      "dcb",
+      "egfcab",
+      "gfcdb"
+    ],
+    "outputValue": ["cabegf", "cdb", "cdfge", "cbd"]
+  },
+  {
+    "signalPatterns": [
+      "bg",
+      "bedfc",
+      "bedafc",
+      "cebdfg",
+      "fedgcba",
+      "beg",
+      "gdbcae",
+      "adefg",
+      "dgfbe",
+      "gcbf"
+    ],
+    "outputValue": ["edbcaf", "fgbc", "egb", "cgbf"]
+  },
+  {
+    "signalPatterns": [
+      "abegd",
+      "ecfbga",
+      "cadfbg",
+      "gbdecf",
+      "adbgcfe",
+      "ac",
+      "gabec",
+      "faec",
+      "ebfcg",
+      "abc"
+    ],
+    "outputValue": ["ceaf", "dgbecf", "bdgcfa", "efca"]
+  },
+  {
+    "signalPatterns": [
+      "degba",
+      "begdaf",
+      "gbdcea",
+      "ecgd",
+      "gceadfb",
+      "bgadfc",
+      "ecdba",
+      "bfeca",
+      "cd",
+      "dbc"
+    ],
+    "outputValue": ["cadgbef", "gbdea", "dgec", "cdge"]
+  },
+  {
+    "signalPatterns": [
+      "ceabgd",
+      "fcbge",
+      "cdeba",
+      "cdf",
+      "fgecdab",
+      "fd",
+      "afcgdb",
+      "dbcfea",
+      "dbefc",
+      "afed"
+    ],
+    "outputValue": ["dcebf", "df", "fd", "df"]
+  },
+  {
+    "signalPatterns": [
+      "ebd",
+      "fgbdc",
+      "cfbe",
+      "bgdcef",
+      "fegad",
+      "be",
+      "befdg",
+      "acbgdef",
+      "cegdab",
+      "agcdfb"
+    ],
+    "outputValue": ["bed", "gfedb", "cefb", "fgbcd"]
+  },
+  {
+    "signalPatterns": [
+      "deb",
+      "gbcd",
+      "ecfbgd",
+      "cfedga",
+      "ecbdf",
+      "db",
+      "edcgf",
+      "afbdge",
+      "cefba",
+      "eabcgfd"
+    ],
+    "outputValue": ["bde", "bd", "cfeba", "gfadce"]
+  },
+  {
+    "signalPatterns": [
+      "afbec",
+      "bcefd",
+      "afgec",
+      "cfaegd",
+      "fgbace",
+      "ba",
+      "deagbf",
+      "abe",
+      "bcag",
+      "dafebcg"
+    ],
+    "outputValue": ["cefba", "fgaedc", "fbgaed", "bfced"]
+  },
+  {
+    "signalPatterns": [
+      "fabed",
+      "cadfbeg",
+      "ecf",
+      "afedc",
+      "gfdac",
+      "agec",
+      "facgdb",
+      "ec",
+      "cdefga",
+      "dfgcbe"
+    ],
+    "outputValue": ["agbdcef", "efc", "dbfeagc", "agdfc"]
+  },
+  {
+    "signalPatterns": [
+      "gc",
+      "baedg",
+      "gaebdc",
+      "edbfga",
+      "dabfc",
+      "dbagc",
+      "gdec",
+      "gbc",
+      "dcfegba",
+      "cfabeg"
+    ],
+    "outputValue": ["agdeb", "eabdg", "dbagc", "gdfabec"]
+  },
+  {
+    "signalPatterns": [
+      "dfegab",
+      "fgd",
+      "gadc",
+      "agfdcb",
+      "gd",
+      "cfdbg",
+      "bcagf",
+      "edbcf",
+      "fcgeadb",
+      "aefcgb"
+    ],
+    "outputValue": ["cfabg", "dgac", "dg", "gd"]
+  },
+  {
+    "signalPatterns": [
+      "cagfbde",
+      "dcbfge",
+      "bgefd",
+      "ebdfag",
+      "af",
+      "caedb",
+      "daf",
+      "eabdf",
+      "bfgacd",
+      "egfa"
+    ],
+    "outputValue": ["ebcad", "adegbf", "dcaeb", "edgfbac"]
+  },
+  {
+    "signalPatterns": [
+      "fecd",
+      "gbadf",
+      "baecdg",
+      "ebfacg",
+      "fbedcag",
+      "ef",
+      "gdafec",
+      "egdaf",
+      "gecda",
+      "afe"
+    ],
+    "outputValue": ["fe", "fe", "efdc", "defcabg"]
+  },
+  {
+    "signalPatterns": [
+      "fgbdac",
+      "egbca",
+      "gecfda",
+      "fgadc",
+      "gfb",
+      "befgda",
+      "bcafg",
+      "dcbaegf",
+      "bdfc",
+      "bf"
+    ],
+    "outputValue": ["bf", "fb", "egcab", "caefgd"]
+  },
+  {
+    "signalPatterns": [
+      "fb",
+      "efcdag",
+      "gebcd",
+      "faedg",
+      "dagfeb",
+      "cfgadb",
+      "cfgbdae",
+      "bfae",
+      "fdb",
+      "degbf"
+    ],
+    "outputValue": ["gbdef", "afbe", "gecbfad", "adgef"]
+  },
+  {
+    "signalPatterns": [
+      "gdcf",
+      "abegdcf",
+      "dg",
+      "dga",
+      "cdefba",
+      "bgcae",
+      "afegdb",
+      "deafc",
+      "eafcdg",
+      "dcega"
+    ],
+    "outputValue": ["cegab", "eacbg", "dga", "gedac"]
+  },
+  {
+    "signalPatterns": [
+      "caegfb",
+      "gfcad",
+      "ebcdfg",
+      "cbdfega",
+      "gdcbf",
+      "bf",
+      "cbf",
+      "edgcb",
+      "bdfe",
+      "gedacb"
+    ],
+    "outputValue": ["dgcaf", "gcdfb", "bfed", "edbcafg"]
+  },
+  {
+    "signalPatterns": [
+      "bdcfe",
+      "fgdbaec",
+      "ecgafd",
+      "befgad",
+      "eafbd",
+      "adf",
+      "gabd",
+      "fbgae",
+      "ad",
+      "gfcaeb"
+    ],
+    "outputValue": ["bgda", "ad", "ad", "fcedag"]
+  },
+  {
+    "signalPatterns": [
+      "agecfd",
+      "bcegfa",
+      "fbecgad",
+      "fgcad",
+      "gefdc",
+      "fcdegb",
+      "fbgad",
+      "cga",
+      "aedc",
+      "ac"
+    ],
+    "outputValue": ["cdfag", "cegdf", "gdceaf", "cdbgfe"]
+  },
+  {
+    "signalPatterns": [
+      "bgd",
+      "befgd",
+      "fdbceag",
+      "db",
+      "dcgfe",
+      "cbde",
+      "dfgcba",
+      "gafecd",
+      "dcbgfe",
+      "gfabe"
+    ],
+    "outputValue": ["cdbe", "egdcbf", "egfcd", "dbcegf"]
+  },
+  {
+    "signalPatterns": [
+      "ed",
+      "gdefc",
+      "dcegfb",
+      "fecbg",
+      "fcdag",
+      "edg",
+      "bacedg",
+      "edbf",
+      "becafg",
+      "adecfgb"
+    ],
+    "outputValue": ["ed", "ed", "gbfcae", "bgfdce"]
+  },
+  {
+    "signalPatterns": [
+      "fbdagc",
+      "gabdf",
+      "ecdabfg",
+      "caegbd",
+      "ebgaf",
+      "cfabde",
+      "cgfd",
+      "agd",
+      "gd",
+      "dbafc"
+    ],
+    "outputValue": ["fbdcae", "dfcaegb", "gad", "gabfe"]
+  },
+  {
+    "signalPatterns": [
+      "fbeacg",
+      "fbcaged",
+      "fdaeg",
+      "fde",
+      "becfgd",
+      "agfbe",
+      "de",
+      "eabd",
+      "abedgf",
+      "acfdg"
+    ],
+    "outputValue": ["ed", "dgebafc", "agefbd", "fgdac"]
+  },
+  {
+    "signalPatterns": [
+      "deagf",
+      "efcad",
+      "dga",
+      "dfgeca",
+      "dcaebf",
+      "gecd",
+      "dg",
+      "faebdgc",
+      "agefb",
+      "bdgcaf"
+    ],
+    "outputValue": ["dg", "gbeaf", "fcbdgea", "gd"]
+  },
+  {
+    "signalPatterns": [
+      "fb",
+      "gaedcfb",
+      "gebda",
+      "gabdec",
+      "dagbfe",
+      "fbdae",
+      "aecdf",
+      "fbd",
+      "gcebdf",
+      "gbfa"
+    ],
+    "outputValue": ["afecbdg", "bdecga", "abged", "bdecgfa"]
+  },
+  {
+    "signalPatterns": [
+      "gb",
+      "bgedcfa",
+      "adgefc",
+      "dbgef",
+      "deafg",
+      "eabdgf",
+      "ecdfb",
+      "acgbde",
+      "afgb",
+      "ebg"
+    ],
+    "outputValue": ["gb", "afgb", "cefgbda", "gb"]
+  },
+  {
+    "signalPatterns": [
+      "gb",
+      "edacfgb",
+      "cdfegb",
+      "bgc",
+      "cgaefd",
+      "bdga",
+      "fbeac",
+      "gacfd",
+      "fgdacb",
+      "bacgf"
+    ],
+    "outputValue": ["gdacf", "gdba", "abdg", "bfcga"]
+  },
+  {
+    "signalPatterns": [
+      "ce",
+      "befcag",
+      "ebdca",
+      "adgcb",
+      "aec",
+      "dgebaf",
+      "bdefca",
+      "badfe",
+      "edcf",
+      "bfegacd"
+    ],
+    "outputValue": ["cbfaed", "begcfa", "abegdcf", "cfde"]
+  },
+  {
+    "signalPatterns": [
+      "ceabdg",
+      "bceafdg",
+      "gabfed",
+      "caef",
+      "ac",
+      "aegfb",
+      "bafcg",
+      "bfaceg",
+      "cdbfg",
+      "cga"
+    ],
+    "outputValue": ["ac", "aedfgb", "gfecba", "ca"]
+  },
+  {
+    "signalPatterns": [
+      "gdebf",
+      "aecf",
+      "bcgfda",
+      "fcd",
+      "gcebda",
+      "fbcde",
+      "ecbad",
+      "gebfdac",
+      "cfaebd",
+      "cf"
+    ],
+    "outputValue": ["cdf", "dcbage", "cf", "befdg"]
+  },
+  {
+    "signalPatterns": [
+      "fdga",
+      "df",
+      "fdbage",
+      "bdeaf",
+      "adegb",
+      "agedcb",
+      "fbd",
+      "fbcea",
+      "dbfgec",
+      "cfbegad"
+    ],
+    "outputValue": ["fd", "bfdgcea", "aecgbd", "agedb"]
+  },
+  {
+    "signalPatterns": [
+      "cbegda",
+      "agcbfd",
+      "gbeafdc",
+      "dacge",
+      "fgbec",
+      "bd",
+      "edfacg",
+      "bead",
+      "gdb",
+      "dgbce"
+    ],
+    "outputValue": ["bdg", "acgde", "daeb", "gbafcd"]
+  },
+  {
+    "signalPatterns": [
+      "degcbf",
+      "fg",
+      "acgedb",
+      "cdgbfea",
+      "adgf",
+      "bfg",
+      "eagbd",
+      "fgbae",
+      "becfa",
+      "geadfb"
+    ],
+    "outputValue": ["dgaf", "febag", "gdeba", "gdbcea"]
+  },
+  {
+    "signalPatterns": [
+      "fcgaeb",
+      "aebdg",
+      "gcadeb",
+      "cegfdb",
+      "afdeg",
+      "ebcfgda",
+      "dgb",
+      "cdba",
+      "bd",
+      "bcage"
+    ],
+    "outputValue": ["agedf", "eagcb", "dcgaeb", "cgfbae"]
+  },
+  {
+    "signalPatterns": [
+      "gbecd",
+      "abedc",
+      "fegbcd",
+      "efgacd",
+      "fegdab",
+      "bg",
+      "bgcdafe",
+      "geb",
+      "fdceg",
+      "gbcf"
+    ],
+    "outputValue": ["beg", "bdgeaf", "gdfec", "efgcda"]
+  },
+  {
+    "signalPatterns": [
+      "acbfe",
+      "cef",
+      "egfabd",
+      "afbeg",
+      "bdfeacg",
+      "cage",
+      "gfdcbe",
+      "ec",
+      "beagfc",
+      "facbd"
+    ],
+    "outputValue": ["cef", "fce", "afebdcg", "acefb"]
+  },
+  {
+    "signalPatterns": [
+      "da",
+      "afd",
+      "gfebdc",
+      "cadg",
+      "deafc",
+      "ecfdg",
+      "gdafbec",
+      "fagcde",
+      "edbafg",
+      "eabfc"
+    ],
+    "outputValue": ["aefbdg", "ad", "fcdge", "dgbfce"]
+  },
+  {
+    "signalPatterns": [
+      "ecgdaf",
+      "df",
+      "dbeac",
+      "fbegc",
+      "cdf",
+      "bfedc",
+      "bacgde",
+      "dfaecb",
+      "dbfa",
+      "bfgdace"
+    ],
+    "outputValue": ["defcag", "bcfed", "fedcb", "begcf"]
+  },
+  {
+    "signalPatterns": [
+      "ceafbd",
+      "ecfgbad",
+      "afgdbe",
+      "gbdac",
+      "fcgbed",
+      "ebg",
+      "eg",
+      "gfae",
+      "egadb",
+      "baedf"
+    ],
+    "outputValue": ["ge", "eg", "gafedb", "bge"]
+  },
+  {
+    "signalPatterns": [
+      "bf",
+      "abcdfe",
+      "afb",
+      "acdbf",
+      "fdaebg",
+      "cdgabe",
+      "cbfe",
+      "cdbea",
+      "dgaefcb",
+      "gfcad"
+    ],
+    "outputValue": ["cagedbf", "acefdbg", "febadgc", "edbac"]
+  },
+  {
+    "signalPatterns": [
+      "aegcdf",
+      "abgecf",
+      "abefdgc",
+      "daefg",
+      "agbfd",
+      "eacgd",
+      "cgeadb",
+      "decf",
+      "fe",
+      "gfe"
+    ],
+    "outputValue": ["fe", "gcafedb", "fe", "bdcgea"]
+  },
+  {
+    "signalPatterns": [
+      "be",
+      "cgfdea",
+      "bfce",
+      "fbegd",
+      "bagefdc",
+      "bge",
+      "gbfda",
+      "fedgc",
+      "ecdabg",
+      "bdefgc"
+    ],
+    "outputValue": ["begdf", "dgaefbc", "bge", "edbcfg"]
+  },
+  {
+    "signalPatterns": [
+      "facebgd",
+      "fcge",
+      "caf",
+      "agbecf",
+      "dbafg",
+      "aegcb",
+      "dcabeg",
+      "bagfc",
+      "fc",
+      "fcadeb"
+    ],
+    "outputValue": ["cf", "caf", "fc", "ecafbg"]
+  },
+  {
+    "signalPatterns": [
+      "fbegca",
+      "bfegad",
+      "cafe",
+      "caegb",
+      "beagf",
+      "gfcdab",
+      "ca",
+      "cdegb",
+      "bfdegca",
+      "cag"
+    ],
+    "outputValue": ["fgaeb", "agc", "ecfa", "bfaeg"]
+  },
+  {
+    "signalPatterns": [
+      "ab",
+      "fceadgb",
+      "bae",
+      "gceda",
+      "afbced",
+      "gfdeb",
+      "edbafg",
+      "fdbecg",
+      "aebgd",
+      "bfga"
+    ],
+    "outputValue": ["ba", "ebfdca", "gfedb", "dagbe"]
+  },
+  {
+    "signalPatterns": [
+      "abdfcg",
+      "egcf",
+      "efd",
+      "efgacdb",
+      "fe",
+      "ebacd",
+      "dbcfeg",
+      "gbfaed",
+      "bdcfg",
+      "cdbef"
+    ],
+    "outputValue": ["cadfgb", "gfce", "def", "geabfdc"]
+  },
+  {
+    "signalPatterns": [
+      "beafdc",
+      "bgdec",
+      "efgbac",
+      "gab",
+      "gdbcaf",
+      "ebcga",
+      "gfea",
+      "ga",
+      "cagebfd",
+      "fcabe"
+    ],
+    "outputValue": ["gba", "cbega", "gaef", "eabcfdg"]
+  },
+  {
+    "signalPatterns": [
+      "de",
+      "fdcegb",
+      "fcebd",
+      "afegbc",
+      "efd",
+      "bdcfa",
+      "decgbaf",
+      "gfecb",
+      "gefdac",
+      "dbge"
+    ],
+    "outputValue": ["gedb", "edf", "gbfec", "ed"]
+  },
+  {
+    "signalPatterns": [
+      "dbfacge",
+      "eabdg",
+      "beg",
+      "adbcg",
+      "eg",
+      "abdfe",
+      "fbadeg",
+      "adcbef",
+      "bfecdg",
+      "gaef"
+    ],
+    "outputValue": ["bedfga", "bdfae", "dafcbe", "beg"]
+  },
+  {
+    "signalPatterns": [
+      "acfbg",
+      "bfgdea",
+      "eabcf",
+      "fagbced",
+      "gcfd",
+      "cgabfd",
+      "gf",
+      "cadbge",
+      "fbg",
+      "acgbd"
+    ],
+    "outputValue": ["gfdc", "bcgfeda", "acbgf", "dcagb"]
+  },
+  {
+    "signalPatterns": [
+      "cdeba",
+      "gfdbce",
+      "cad",
+      "acbf",
+      "gedba",
+      "ecabdgf",
+      "cfadeb",
+      "egadfc",
+      "ca",
+      "cdbef"
+    ],
+    "outputValue": ["defbgc", "cdbef", "caedb", "acebd"]
+  },
+  {
+    "signalPatterns": [
+      "edfabg",
+      "ab",
+      "cfegdb",
+      "adgcebf",
+      "eacb",
+      "dcafb",
+      "ebdcf",
+      "efbdac",
+      "adfgc",
+      "abd"
+    ],
+    "outputValue": ["efbdag", "abec", "cfbad", "ab"]
+  },
+  {
+    "signalPatterns": [
+      "abgdcf",
+      "fdg",
+      "fg",
+      "edfabc",
+      "dabfegc",
+      "gfac",
+      "bdcaf",
+      "egdcb",
+      "gcbfd",
+      "fdaebg"
+    ],
+    "outputValue": ["dfbgeca", "fg", "bfdgac", "cgdefab"]
+  },
+  {
+    "signalPatterns": [
+      "gcdafb",
+      "ce",
+      "cbde",
+      "fecgd",
+      "acgebdf",
+      "gcbfd",
+      "aefdg",
+      "gbfdce",
+      "gcfeab",
+      "cef"
+    ],
+    "outputValue": ["bced", "dacgfb", "dbgecfa", "decb"]
+  },
+  {
+    "signalPatterns": [
+      "gaecfdb",
+      "cge",
+      "dacef",
+      "cg",
+      "bgead",
+      "gcead",
+      "fbecag",
+      "cbeafd",
+      "dfgc",
+      "fdaegc"
+    ],
+    "outputValue": ["dfcg", "gc", "agced", "dfcg"]
+  },
+  {
+    "signalPatterns": [
+      "eb",
+      "cegfab",
+      "gdbe",
+      "ecagfd",
+      "dafcb",
+      "decagbf",
+      "fbe",
+      "abefd",
+      "gfead",
+      "eafdgb"
+    ],
+    "outputValue": ["gbafed", "fgeda", "abfde", "be"]
+  },
+  {
+    "signalPatterns": [
+      "gebadf",
+      "ebfdg",
+      "bgefdc",
+      "bdea",
+      "bafcedg",
+      "feagc",
+      "adbfcg",
+      "befag",
+      "ba",
+      "bga"
+    ],
+    "outputValue": ["gacebfd", "geadfb", "acfgbd", "bade"]
+  },
+  {
+    "signalPatterns": [
+      "becda",
+      "dgaeb",
+      "dg",
+      "dcefab",
+      "gbd",
+      "cgfdba",
+      "cabged",
+      "gfabe",
+      "egdc",
+      "gafedbc"
+    ],
+    "outputValue": ["gabef", "dgb", "fcdabg", "dceg"]
+  },
+  {
+    "signalPatterns": [
+      "aebf",
+      "bfc",
+      "bfecg",
+      "bf",
+      "febcgad",
+      "egbafc",
+      "fgedc",
+      "eacgbd",
+      "dafbcg",
+      "ebacg"
+    ],
+    "outputValue": ["aefb", "gfbaec", "bf", "fb"]
+  },
+  {
+    "signalPatterns": [
+      "cdgaeb",
+      "bdacefg",
+      "afecgd",
+      "edaf",
+      "cagfe",
+      "ae",
+      "gbcfa",
+      "cae",
+      "bgcfde",
+      "fgecd"
+    ],
+    "outputValue": ["cfdage", "abdgfce", "defa", "cagfb"]
+  },
+  {
+    "signalPatterns": [
+      "bedag",
+      "gdcbea",
+      "gfebdca",
+      "adg",
+      "dgfbac",
+      "dg",
+      "faegcb",
+      "eafdb",
+      "egdc",
+      "acegb"
+    ],
+    "outputValue": ["dg", "efgadcb", "gdce", "bcegad"]
+  },
+  {
+    "signalPatterns": [
+      "dacfgbe",
+      "fg",
+      "fbace",
+      "fbgae",
+      "gef",
+      "cefbad",
+      "debga",
+      "gefbcd",
+      "ebcgfa",
+      "gfca"
+    ],
+    "outputValue": ["cafg", "decbfg", "efg", "gf"]
+  },
+  {
+    "signalPatterns": [
+      "deca",
+      "cbaefd",
+      "fdgebca",
+      "fca",
+      "bfdga",
+      "gbdcfe",
+      "ac",
+      "fcbeag",
+      "dcfeb",
+      "badcf"
+    ],
+    "outputValue": ["adcfb", "dfcbgae", "gecbaf", "eabcdf"]
+  },
+  {
+    "signalPatterns": [
+      "gdabefc",
+      "ca",
+      "gbefda",
+      "aec",
+      "cafg",
+      "ebafc",
+      "gcdeba",
+      "gefba",
+      "ecbdf",
+      "feabcg"
+    ],
+    "outputValue": ["cfga", "fgaebd", "dcbgae", "bfage"]
+  },
+  {
+    "signalPatterns": [
+      "ecd",
+      "fagedc",
+      "dcaegb",
+      "efgd",
+      "febdcga",
+      "fcade",
+      "efcgab",
+      "fgcea",
+      "afdbc",
+      "de"
+    ],
+    "outputValue": ["gbceda", "de", "gefbca", "efdg"]
+  },
+  {
+    "signalPatterns": [
+      "afgcb",
+      "ecbdgfa",
+      "bdgecf",
+      "ad",
+      "dgea",
+      "cadfg",
+      "afd",
+      "afecbd",
+      "cedagf",
+      "fecgd"
+    ],
+    "outputValue": ["beafdc", "afd", "geda", "adgfec"]
+  },
+  {
+    "signalPatterns": [
+      "gbdcfe",
+      "cdeab",
+      "fd",
+      "fecda",
+      "adcgebf",
+      "adebgc",
+      "badf",
+      "egcaf",
+      "dfc",
+      "fbdeac"
+    ],
+    "outputValue": ["cgafe", "fbdeca", "beagfcd", "caebfgd"]
+  },
+  {
+    "signalPatterns": [
+      "abgfc",
+      "gfedabc",
+      "cb",
+      "dcefga",
+      "bdca",
+      "fcb",
+      "egbcfd",
+      "dbgafc",
+      "dafcg",
+      "gabfe"
+    ],
+    "outputValue": ["acefgd", "bcf", "dbgfac", "acgdf"]
+  },
+  {
+    "signalPatterns": [
+      "facge",
+      "ecadgb",
+      "fecdba",
+      "dfcg",
+      "fc",
+      "fac",
+      "eagfcd",
+      "bgecfda",
+      "afgeb",
+      "eacdg"
+    ],
+    "outputValue": ["cdfg", "caefg", "fc", "bdeafcg"]
+  },
+  {
+    "signalPatterns": [
+      "efdgb",
+      "cebadg",
+      "ceafbg",
+      "fadcbg",
+      "bcafdge",
+      "fag",
+      "af",
+      "efgba",
+      "cabeg",
+      "faec"
+    ],
+    "outputValue": ["abgce", "ceaf", "gaf", "gbdeac"]
+  },
+  {
+    "signalPatterns": [
+      "cafegb",
+      "gcadfb",
+      "begfacd",
+      "bfad",
+      "db",
+      "dbgfc",
+      "dbc",
+      "cgfde",
+      "bgcdea",
+      "cbfga"
+    ],
+    "outputValue": ["gbfadc", "edabcg", "agfbec", "dbfa"]
+  },
+  {
+    "signalPatterns": [
+      "facb",
+      "acbefdg",
+      "baedfg",
+      "fbegca",
+      "gfeadc",
+      "bae",
+      "dgcbe",
+      "geacf",
+      "ab",
+      "gcaeb"
+    ],
+    "outputValue": ["ba", "eba", "baegdfc", "ba"]
+  },
+  {
+    "signalPatterns": [
+      "edfgba",
+      "gbfed",
+      "dfc",
+      "afdcebg",
+      "cd",
+      "cbdef",
+      "fbaec",
+      "gedcbf",
+      "gcdb",
+      "dgefca"
+    ],
+    "outputValue": ["gfbade", "cbdg", "dfc", "cbgd"]
+  },
+  {
+    "signalPatterns": [
+      "bfc",
+      "fgcbda",
+      "dgfecb",
+      "dbegac",
+      "gcaf",
+      "afcbd",
+      "dcbfeag",
+      "dagbc",
+      "adbef",
+      "fc"
+    ],
+    "outputValue": ["afcg", "afgc", "fcb", "gbedfc"]
+  },
+  {
+    "signalPatterns": [
+      "dfagb",
+      "edagbfc",
+      "dceb",
+      "agebcf",
+      "bc",
+      "gaedfc",
+      "fbc",
+      "cfbaed",
+      "fcdba",
+      "adecf"
+    ],
+    "outputValue": ["bc", "cb", "ecdfba", "bdec"]
+  },
+  {
+    "signalPatterns": [
+      "gc",
+      "cgdfbe",
+      "agcb",
+      "bfgdcea",
+      "egacfb",
+      "gefdba",
+      "dcfea",
+      "fcg",
+      "fgeac",
+      "aebgf"
+    ],
+    "outputValue": ["fbgdec", "cbafge", "gbac", "befga"]
+  },
+  {
+    "signalPatterns": [
+      "fgdac",
+      "agfbed",
+      "ec",
+      "bcegfd",
+      "eadgbc",
+      "gdcae",
+      "gdaeb",
+      "abec",
+      "ceg",
+      "bcdgfae"
+    ],
+    "outputValue": ["fgcad", "dagce", "adfcg", "ec"]
+  },
+  {
+    "signalPatterns": [
+      "gfcad",
+      "aecbgdf",
+      "feacgd",
+      "ceda",
+      "fgdae",
+      "fca",
+      "ac",
+      "bagedf",
+      "acfegb",
+      "cfbdg"
+    ],
+    "outputValue": ["acf", "afc", "fac", "ac"]
+  },
+  {
+    "signalPatterns": [
+      "agcdeb",
+      "ga",
+      "aebdgf",
+      "bedfgc",
+      "age",
+      "feadg",
+      "cadfe",
+      "egdbfca",
+      "efgdb",
+      "gfba"
+    ],
+    "outputValue": ["edbgac", "fdeca", "acedbg", "cgbdfe"]
+  },
+  {
+    "signalPatterns": [
+      "gfdc",
+      "acebf",
+      "dce",
+      "adgcbe",
+      "egcdaf",
+      "aedgfbc",
+      "gfdae",
+      "afgbed",
+      "aedcf",
+      "cd"
+    ],
+    "outputValue": ["gadcef", "dc", "fdecag", "aegfdb"]
+  },
+  {
+    "signalPatterns": [
+      "agcdeb",
+      "gdfc",
+      "gebdc",
+      "bcaegf",
+      "cf",
+      "dabef",
+      "cfdegb",
+      "ecbfd",
+      "aecfdbg",
+      "fbc"
+    ],
+    "outputValue": ["fbc", "debfc", "gecabfd", "gedcb"]
+  },
+  {
+    "signalPatterns": [
+      "aebfc",
+      "aecgf",
+      "cb",
+      "daegcf",
+      "dbaecg",
+      "cbdgafe",
+      "adfeb",
+      "bce",
+      "bfgc",
+      "bgcaef"
+    ],
+    "outputValue": ["ceb", "fbgc", "cbgf", "bdcefag"]
+  },
+  {
+    "signalPatterns": [
+      "egfdab",
+      "cefbgad",
+      "cbfdea",
+      "gdea",
+      "egbdf",
+      "bed",
+      "de",
+      "gbefc",
+      "gbfad",
+      "gbfacd"
+    ],
+    "outputValue": ["eacdgbf", "agbfdc", "dgcaefb", "de"]
+  },
+  {
+    "signalPatterns": [
+      "adbfce",
+      "be",
+      "afcebgd",
+      "fadbc",
+      "bed",
+      "dfaeb",
+      "badcfg",
+      "acdebg",
+      "eafdg",
+      "cbfe"
+    ],
+    "outputValue": ["edb", "cbfe", "fdgeacb", "deb"]
+  },
+  {
+    "signalPatterns": [
+      "bad",
+      "feab",
+      "cfdga",
+      "fcgdbe",
+      "dcfbe",
+      "gedacb",
+      "cadbf",
+      "becfagd",
+      "dbeafc",
+      "ab"
+    ],
+    "outputValue": ["efcbgda", "aebf", "bdcgafe", "abef"]
+  },
+  {
+    "signalPatterns": [
+      "dbfeg",
+      "dfbecag",
+      "dace",
+      "cfdbag",
+      "gcabd",
+      "cegdb",
+      "egafcb",
+      "ec",
+      "ceb",
+      "debcga"
+    ],
+    "outputValue": ["bce", "ce", "adbecgf", "abgcd"]
+  },
+  {
+    "signalPatterns": [
+      "cabdgf",
+      "dea",
+      "abcgd",
+      "abfdeg",
+      "acdbge",
+      "befdgac",
+      "edacg",
+      "fegdc",
+      "abce",
+      "ea"
+    ],
+    "outputValue": ["edacg", "gedcf", "dceag", "bagdfc"]
+  },
+  {
+    "signalPatterns": [
+      "aceg",
+      "ac",
+      "bacgfd",
+      "ceabf",
+      "fcaegb",
+      "edbgfc",
+      "dbfea",
+      "bgecdaf",
+      "ebgfc",
+      "acf"
+    ],
+    "outputValue": ["agce", "ac", "ecbfa", "agfbecd"]
+  },
+  {
+    "signalPatterns": [
+      "bgcfda",
+      "egc",
+      "dbefcag",
+      "befdg",
+      "ec",
+      "aedc",
+      "cadfeg",
+      "cgdaf",
+      "gefcd",
+      "fcageb"
+    ],
+    "outputValue": ["cebdagf", "dace", "ecfdag", "bcdaegf"]
+  },
+  {
+    "signalPatterns": [
+      "bfdgc",
+      "gbe",
+      "acgef",
+      "gbcade",
+      "be",
+      "egfcb",
+      "afbe",
+      "bacfeg",
+      "dfbgeac",
+      "gcfaed"
+    ],
+    "outputValue": ["abfe", "gfcbd", "fbgeac", "dcgbf"]
+  },
+  {
+    "signalPatterns": [
+      "efcbd",
+      "adegbcf",
+      "agefdb",
+      "cdabf",
+      "bedgca",
+      "abgdf",
+      "dgabfc",
+      "ac",
+      "fcga",
+      "bac"
+    ],
+    "outputValue": ["ac", "abc", "debgac", "fbdgac"]
+  },
+  {
+    "signalPatterns": [
+      "ebgacd",
+      "fd",
+      "bdface",
+      "cabdf",
+      "dfa",
+      "gfcab",
+      "gbeafdc",
+      "ecfd",
+      "ecbda",
+      "egfdba"
+    ],
+    "outputValue": ["fd", "df", "dcef", "fd"]
+  },
+  {
+    "signalPatterns": [
+      "cbadge",
+      "geb",
+      "cfdge",
+      "bg",
+      "bfeca",
+      "bgecaf",
+      "edcabf",
+      "gcbfe",
+      "afgb",
+      "efgdabc"
+    ],
+    "outputValue": ["fabg", "gabf", "gfbec", "afebc"]
+  },
+  {
+    "signalPatterns": [
+      "fedgabc",
+      "cbedg",
+      "fcaegd",
+      "ecg",
+      "dcfgb",
+      "ce",
+      "bdfgae",
+      "gaebd",
+      "cbea",
+      "ecdbag"
+    ],
+    "outputValue": ["efcbagd", "bfeagcd", "ce", "ce"]
+  },
+  {
+    "signalPatterns": [
+      "gebdcf",
+      "cdbfga",
+      "fead",
+      "aedfcgb",
+      "ad",
+      "afegbd",
+      "gdfbe",
+      "bedag",
+      "ecagb",
+      "agd"
+    ],
+    "outputValue": ["ad", "bfcagd", "ceafdgb", "fcgadbe"]
+  },
+  {
+    "signalPatterns": [
+      "fdegb",
+      "egdbfc",
+      "cegfdab",
+      "dacfge",
+      "dge",
+      "gadbf",
+      "edcfb",
+      "edcabf",
+      "egcb",
+      "ge"
+    ],
+    "outputValue": ["edg", "bagdcfe", "egcb", "ged"]
+  },
+  {
+    "signalPatterns": [
+      "ad",
+      "cfbeag",
+      "adb",
+      "efbad",
+      "feabc",
+      "acfd",
+      "cgdeba",
+      "fdacgbe",
+      "dgefb",
+      "feadbc"
+    ],
+    "outputValue": ["fabce", "cfbega", "defbca", "bad"]
+  },
+  {
+    "signalPatterns": [
+      "facbge",
+      "cfabd",
+      "bgcafde",
+      "agdb",
+      "fab",
+      "becdf",
+      "cfaegd",
+      "dafgc",
+      "agfcbd",
+      "ba"
+    ],
+    "outputValue": ["cbfda", "ab", "cbfdaeg", "dfagbc"]
+  },
+  {
+    "signalPatterns": [
+      "eg",
+      "dgaebc",
+      "dfcgab",
+      "cdgfe",
+      "edfcb",
+      "adcgf",
+      "cedagf",
+      "geaf",
+      "bacdefg",
+      "gde"
+    ],
+    "outputValue": ["dfcbe", "eagf", "agdecf", "ge"]
+  }
+]
