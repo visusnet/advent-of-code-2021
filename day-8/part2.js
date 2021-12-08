@@ -28,18 +28,18 @@ function decodeDigitWith(wireSegmentConnections) {
 }
 
 function determineWireSegmentConnections(signalPatterns) {
-  const one = signalPatterns.find(hasLength(2));
-  const four = signalPatterns.find(hasLength(4));
-  const seven = signalPatterns.find(hasLength(3));
-  const eight = signalPatterns.find(hasLength(7));
+  const one = signalPatterns.find(withLength(2));
+  const four = signalPatterns.find(withLength(4));
+  const seven = signalPatterns.find(withLength(3));
+  const eight = signalPatterns.find(withLength(7));
 
   // 2, 3, 5 are the only digits that have 5 segments
   const signalPatternsOfDigitsWithFiveSegments = signalPatterns.filter(
-    hasLength(5)
+    withLength(5)
   );
   // 0, 6, 9 are the only digits that have 6 segments
   const signalPatternsOfDigitsWithSixSegments = signalPatterns.filter(
-    hasLength(6)
+    withLength(6)
   );
 
   // 6 is the only digit that has 6 segments that contains only one signal of 1
@@ -56,19 +56,17 @@ function determineWireSegmentConnections(signalPatterns) {
   const signalPatternsOfDigitsWithFiveSegmentsButNotThree =
     signalPatternsOfDigitsWithFiveSegments.filter(isNot(three));
 
-  // 5 is the only digit that has 5 segments that contains 2 signals of 4 but is not 3.
+  // 2 is the only digit that has 5 segments that contains 2 signals of 4 but is not 3.
   const two = signalPatternsOfDigitsWithFiveSegmentsButNotThree.find(
     sharesNumberOfSignalsWith(2, four)
   );
-  // 5 is the only digit that has 5 segments that contains 3 signals of 4 but is not 3.
-  const five = signalPatternsOfDigitsWithFiveSegmentsButNotThree.find(
-    sharesNumberOfSignalsWith(3, four)
-  );
+  // 5 is the only digit that has 5 segments that is not 2 or 3.
+  const five = signalPatternsOfDigitsWithFiveSegments.find(isNot(two, three));
 
   return [zero, one, two, three, four, five, six, seven, eight, nine];
 }
 
-function hasLength(length) {
+function withLength(length) {
   return (signalPattern) => signalPattern.length === length;
 }
 
