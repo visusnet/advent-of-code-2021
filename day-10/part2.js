@@ -20,13 +20,13 @@ function onlyIncomplete(parserResults) {
 function calculateCompletionPoints(incompleteTokenStacks) {
   return incompleteTokenStacks.reduce(
     (incompleteLinePoints, incompleteTokenStack) => {
-      const closeOrder = incompleteTokenStack.reverse().map((char) => {
-        const openIndex = OPENING_TOKENS.indexOf(char);
+      const closeOrder = incompleteTokenStack.reverse().map((token) => {
+        const openIndex = OPENING_TOKENS.indexOf(token);
         return CLOSING_TOKENS[openIndex];
       });
 
       const completionPoints = closeOrder.reduce(
-        (sum, char) => sum * 5 + COMPLETION_TOKEN_POINTS[char],
+        (sum, token) => sum * 5 + COMPLETION_TOKEN_POINTS[token],
         0
       );
       incompleteLinePoints.push(completionPoints);
