@@ -1,6 +1,6 @@
 const { parseLine, parseProgram, calculatePoints } = require("./part1");
 
-describe("Day 10: Syntax Scoring: Part I", () => {
+describe("Syntax Scoring: Part I", () => {
   const program = [
     "{([(<{}[<>[]}>{[]{[(<()>",
     "[[<[([]))<([[{}[[()]]]",

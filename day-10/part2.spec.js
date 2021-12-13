@@ -5,7 +5,7 @@ const {
   middleScoreOf,
 } = require("./part2");
 
-describe("Day 10: Syntax Scoring: Part II", () => {
+describe("Syntax Scoring: Part II", () => {
   const program = [
     "[({(<(())[]>[[{[]{<()<>>",
     "[(()[<>])]({[<{<<[]>>(",

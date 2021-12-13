@@ -1,6 +1,6 @@
 const { findLowPoints, toHeight } = require("./part1");
 
-describe("Day 9: Smoke Basin: Part I", () => {
+describe("Smoke Basin: Part I", () => {
   describe("findLowPoints", () => {
     it("should find the low point in the middle of a 3x3 heightmap", () => {
       const heightmap = [

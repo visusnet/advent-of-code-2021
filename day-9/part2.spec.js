@@ -1,6 +1,6 @@
 const { findBasinSizes } = require("./part2");
 
-describe("Day 9: Smoke Basin: Part II", () => {
+describe("Smoke Basin: Part II", () => {
   describe("findBasinSizes", () => {
     const heightmap = [
       [2, 1, 9, 9, 9, 4, 3, 2, 1, 0],

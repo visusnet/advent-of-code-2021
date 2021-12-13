@@ -2,52 +2,73 @@ const input = require("./input.json");
 
 function simulateSteps(energyLevels, numberOfSteps) {
   return range(1, numberOfSteps).reduce(
-    ({ nextEnergyLevels, numberOfFlashes }) =>
+    ({ energyLevels, numberOfFlashes }, _) =>
       nextStep(energyLevels, numberOfFlashes),
-    { nextEnergyLevels: energyLevels, numberOfFlashes: 0 }
+    { energyLevels, numberOfFlashes: 0 }
   );
 }
 
-function nextStep(energyLevels, previousNumberOfFlashes = 0) {
-  const { nextEnergyLevels, numberOfFlashes } = flash(
-    energyLevels.map((row) => row.map((energyLevel) => energyLevel + 1))
+function nextStep(currentEnergyLevels, currentNumberOfFlashes) {
+  const alreadyFlashed = new Set();
+
+  const chargedEnergyLevels = currentEnergyLevels.map(bumpEnergyLevels);
+  const nextEnergyLevels = chargedEnergyLevels.reduce(
+    (flashingEnergyLevels, row, y) =>
+      row.reduce(
+        (energyLevels, _, x) => flash(energyLevels, x, y, alreadyFlashed),
+        flashingEnergyLevels
+      ),
+    chargedEnergyLevels
   );
 
   return {
-    nextEnergyLevels,
-    numberOfFlashes: numberOfFlashes + previousNumberOfFlashes,
+    energyLevels: nextEnergyLevels.map(resetEnergyLevels),
+    numberOfFlashes: alreadyFlashed.size + currentNumberOfFlashes,
+    synchronized:
+      alreadyFlashed.size ===
+      currentEnergyLevels[0].length * currentEnergyLevels.length,
   };
 }
 
-function flash(energyLevels, previousNumberOfFlashes = 0) {
-  const { nextEnergyLevels, numberOfFlashes } = energyLevels.reduce(
-    (result, row, y) => {
-      return row.reduce(
-        ({ nextEnergyLevels, numberOfFlashes }, energyLevel, x) => {
-          if (energyLevel > 9) {
-            numberOfFlashes++;
-            nextEnergyLevels = bumpAdjacentLevels(nextEnergyLevels, x, y);
-          }
-          return { nextEnergyLevels, numberOfFlashes };
-        },
-        result
-      );
-    },
-    { nextEnergyLevels: energyLevels, numberOfFlashes: 0 }
-  );
-
-  if (numberOfFlashes > 0) {
-    return flash(nextEnergyLevels, numberOfFlashes + previousNumberOfFlashes);
+function flash(energyLevels, x, y, alreadyFlashed) {
+  const key = `${x},${y}`;
+  if (
+    alreadyFlashed.has(key) ||
+    !existsIn(energyLevels)({ x, y }) ||
+    energyLevels[y][x] <= 9
+  ) {
+    return energyLevels;
   }
 
-  return {
-    nextEnergyLevels,
-    numberOfFlashes: numberOfFlashes + previousNumberOfFlashes,
-  };
+  alreadyFlashed.add(key);
+
+  return adjacentPositionsOf(x, y, energyLevels).reduce(
+    (nextEnergyLevels, coordinates) =>
+      flash(
+        bumpEnergyLevelAt(nextEnergyLevels, coordinates.x, coordinates.y, 1),
+        coordinates.x,
+        coordinates.y,
+        alreadyFlashed
+      ),
+    energyLevels
+  );
 }
 
-function bumpAdjacentLevels(energyLevels, x, y) {
-  const coordinatesList = [
+function resetEnergyLevels(row) {
+  return row.map((energyLevel) => (energyLevel > 9 ? 0 : energyLevel));
+}
+
+function bumpEnergyLevels(row) {
+  return row.map((energyLevel) => energyLevel + 1);
+}
+
+function bumpEnergyLevelAt(energyLevels, x, y) {
+  energyLevels[y][x]++;
+  return energyLevels;
+}
+
+function adjacentPositionsOf(x, y, energyLevels) {
+  return [
     { x: x - 1, y: y - 1 },
     { x, y: y - 1 },
     { x: x + 1, y: y - 1 },
@@ -56,16 +77,13 @@ function bumpAdjacentLevels(energyLevels, x, y) {
     { x: x - 1, y: y + 1 },
     { x, y: y + 1 },
     { x: x + 1, y: y + 1 },
-  ];
-  return coordinatesList.reduce((energyLevels, coordinates) => {
-    if (
-      energyLevels[coordinates.y] &&
-      typeof energyLevels[coordinates.y][coordinates.x] !== "undefined"
-    ) {
-      energyLevels[coordinates.y][coordinates.x]++;
-    }
-    return energyLevels;
-  }, energyLevels);
+  ].filter(existsIn(energyLevels));
+}
+
+function existsIn(energyLevels) {
+  return ({ x, y }) =>
+    typeof energyLevels[y] !== "undefined" &&
+    typeof energyLevels[y][x] !== "undefined";
 }
 
 function range(start, end) {
@@ -74,4 +92,8 @@ function range(start, end) {
     .map((_, index) => start + index);
 }
 
-console.log(simulateSteps(input, 100).numberOfFlashes);
+//console.log(simulateSteps(input, 100).numberOfFlashes);
+
+module.exports = {
+  nextStep
+}
