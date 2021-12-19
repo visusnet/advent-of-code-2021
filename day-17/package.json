@@ -1,0 +1,14 @@
+{
+  "name": "day-16",
+  "version": "1.0.0",
+  "main": "input.json",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "debug": "^4.3.3",
+    "jest": "^27.4.3"
+  }
+}
