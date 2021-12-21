@@ -10,8 +10,13 @@ const rolls = new Map([
   [9, 1], // [3,3,3]
 ]);
 
-function takeTurn(players, currentPlayerIndex) {
-  return [...rolls.entries()].reduce((numberOfWins, [eyes, combos]) => {
+function takeTurn(players, currentPlayerIndex, knownGames = new Map()) {
+  const key = gameKeyFor(players, currentPlayerIndex);
+  if (knownGames.has(key)) {
+    return knownGames.get(key);
+  }
+
+  const numberOfWins = [...rolls.entries()].reduce((wins, [eyes, combos]) => {
     const turnPlayers = [{ ...players[0] }, { ...players[1] }];
 
     turnPlayers[currentPlayerIndex].position = nextPosition(
@@ -24,11 +29,23 @@ function takeTurn(players, currentPlayerIndex) {
 
     return turnPlayers[currentPlayerIndex].score >= 21
       ? currentPlayerIndex === 1
-        ? numberOfWins
-        : numberOfWins + combos
-      : numberOfWins +
-          combos * takeTurn(turnPlayers, nextPlayer(currentPlayerIndex));
+        ? wins
+        : wins + combos
+      : wins +
+          combos *
+            takeTurn(turnPlayers, nextPlayer(currentPlayerIndex), knownGames);
   }, 0);
+
+  knownGames.set(key, numberOfWins);
+
+  return numberOfWins;
+}
+
+function gameKeyFor(players, currentPlayerIndex) {
+  return players
+    .flatMap((player) => [player.position, player.score])
+    .concat(currentPlayerIndex)
+    .join("-");
 }
 
 function nextPlayer(currentPlayerIndex) {
