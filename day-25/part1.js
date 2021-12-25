@@ -2,14 +2,14 @@ const input = require("./input.json");
 
 function numberOfStepsUntilStop(map) {
   let steps = 0;
-  let moved = 0;
   let originalMap = map;
 
+  let moved;
   do {
-    moved = 0;
-
-    const { map: mapAfterEastFacingMoved, moved: movedEast } =
-      moveEastFacing(originalMap);
+    const { map: mapAfterEastFacingMoved, moved: movedEast } = moveEastFacing(
+      originalMap,
+      clone(originalMap)
+    );
 
     const { map: mapAfterAllMoved, moved: movedSouth } = moveSouthFacing(
       originalMap,
@@ -25,57 +25,75 @@ function numberOfStepsUntilStop(map) {
   return steps;
 }
 
-function moveEastFacing(originalMap) {
-  let moved = 0;
-  let map = clone(originalMap);
-
-  for (let rowIndex = 0; rowIndex < map.length; rowIndex++) {
-    for (let cellIndex = 0; cellIndex < map[rowIndex].length; cellIndex++) {
-      if (
-        isEastFacing(originalMap, rowIndex, cellIndex) &&
-        canMoveEast(originalMap, rowIndex, cellIndex)
-      ) {
-        moved++;
-        map = moveEast(map, rowIndex, cellIndex);
-      }
-    }
-  }
-  return { map, moved };
-}
-
-function moveSouthFacing(originalMap, map) {
-  let moved = 0;
-  for (let rowIndex = 0; rowIndex < originalMap.length; rowIndex++) {
-    for (
-      let cellIndex = 0;
-      cellIndex < originalMap[rowIndex].length;
-      cellIndex++
-    ) {
-      if (
-        isSouthFacing(originalMap, rowIndex, cellIndex) &&
-        canMoveSouth(originalMap, map, rowIndex, cellIndex)
-      ) {
-        moved++;
-        map = moveSouth(map, rowIndex, cellIndex);
-      }
-    }
-  }
-  return { map: map, moved };
-}
-
-function canMoveSouth(map, nextMap, rowIndex, cellIndex) {
-  const nextRowIndex = nextRowIndexFor(nextMap, rowIndex);
-  return (
-    isEmpty(nextMap, nextRowIndex, cellIndex) &&
-    (isEmpty(map, nextRowIndex, cellIndex) ||
-      isEastFacing(map, nextRowIndex, cellIndex))
+function moveEastFacing(originalMap, mapBeforeEastFacingMoved) {
+  return originalMap.reduce(
+    (mapAndMoved, row, rowIndex) =>
+      row.reduce(
+        ({ map, moved }, _, cellIndex) =>
+          shouldMoveEast(originalMap, rowIndex, cellIndex)
+            ? { map: moveEast(map, rowIndex, cellIndex), moved: moved + 1 }
+            : { map, moved },
+        mapAndMoved
+      ),
+    { map: mapBeforeEastFacingMoved, moved: 0 }
   );
+}
+
+function moveSouthFacing(originalMap, mapAfterEastFacingMoved) {
+  return originalMap.reduce(
+    (mapAndMoved, row, rowIndex) =>
+      row.reduce(
+        ({ map, moved }, _, cellIndex) =>
+          shouldMoveSouth(originalMap, map, rowIndex, cellIndex)
+            ? {
+                map: moveSouth(map, rowIndex, cellIndex),
+                moved: moved + 1,
+              }
+            : { map, moved },
+        mapAndMoved
+      ),
+    { map: mapAfterEastFacingMoved, moved: 0 }
+  );
+}
+
+function shouldMoveSouth(originalMap, map, rowIndex, cellIndex) {
+  return (
+    isSouthFacing(originalMap, rowIndex, cellIndex) &&
+    canMoveSouth(originalMap, map, rowIndex, cellIndex)
+  );
+}
+
+function isSouthFacing(map, rowIndex, cellIndex) {
+  return map[rowIndex][cellIndex] === "v";
+}
+
+function canMoveSouth(originalMap, map, rowIndex, cellIndex) {
+  const nextRowIndex = nextRowIndexFor(map, rowIndex);
+  const southCellIsEmpty = isEmpty(map, nextRowIndex, cellIndex);
+  const southCellWasEmpty = isEmpty(originalMap, nextRowIndex, cellIndex);
+  const southCellWasEmptied = shouldMoveEast(
+    originalMap,
+    nextRowIndex,
+    cellIndex
+  );
+  return southCellIsEmpty && (southCellWasEmpty || southCellWasEmptied);
 }
 
 function moveSouth(map, rowIndex, cellIndex) {
   map[rowIndex][cellIndex] = ".";
   map[nextRowIndexFor(map, rowIndex)][cellIndex] = "v";
   return map;
+}
+
+function shouldMoveEast(map, rowIndex, cellIndex) {
+  return (
+    isEastFacing(map, rowIndex, cellIndex) &&
+    canMoveEast(map, rowIndex, cellIndex)
+  );
+}
+
+function isEastFacing(map, rowIndex, cellIndex) {
+  return map[rowIndex][cellIndex] === ">";
 }
 
 function canMoveEast(map, rowIndex, cellIndex) {
@@ -94,14 +112,6 @@ function nextCellIndexFor(map, cellIndex) {
 
 function nextRowIndexFor(map, rowIndex) {
   return (rowIndex + 1) % map.length;
-}
-
-function isEastFacing(map, rowIndex, cellIndex) {
-  return map[rowIndex][cellIndex] === ">";
-}
-
-function isSouthFacing(map, rowIndex, cellIndex) {
-  return map[rowIndex][cellIndex] === "v";
 }
 
 function isEmpty(map, rowIndex, cellIndex) {
