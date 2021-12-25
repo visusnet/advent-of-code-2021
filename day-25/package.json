@@ -1,0 +1,13 @@
+{
+  "name": "day-25",
+  "version": "1.0.0",
+  "main": "input.json",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^27.4.3"
+  }
+}
